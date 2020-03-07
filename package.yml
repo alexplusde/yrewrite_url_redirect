@@ -1,5 +1,5 @@
 package: yrewrite_url_redirect
-version: '1.0'
+version: '1.0.1'
 author: 'Alexander Walther'
 supportpage: www.github.com/alexplusde/yrewrite_url_redirect
 load: late
@@ -10,6 +10,10 @@ requires:
     redaxo: ^5.7
     packages:
         yrewrite: ^2.5
+    
+conflicts:
+    packages:
+        yrewrite_scheme: '*'
 
 pages:
     yrewrite/forward_options:
