@@ -11,11 +11,9 @@ requires:
     packages:
         yrewrite: ^2.5
 
-
-page:
-    title: 'translate:yrewrite_url_redirect'
-    hidden: true;
-
+pages:
+    yrewrite/forward_options:
+        title: 'translate:yrewrite_url_redirect'
 
 default_config:
     force_trailing_slash: 1

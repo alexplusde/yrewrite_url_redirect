@@ -1,10 +1,5 @@
 <?php
 
-if(!rex_config::has("yrewrite_url_redirect")) {
-    rex_config::set("yrewrite_url_redirect", "force_trailing_slash", 1);
-    rex_config::set("yrewrite_url_redirect", "force_forward", 1);
-}
-
 if (rex::isFrontend()) {
     $site_adress = (((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') || $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'];
     $parts = explode('?', $_SERVER['REQUEST_URI'], 2);
