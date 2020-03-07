@@ -1,0 +1,22 @@
+package: yrewrite_url_redirect
+version: '1.0-dev1'
+author: 'Alexander Walther'
+supportpage: www.github.com/alexplusde/yrewrite_url_redirect
+load: late
+
+requires:
+    php:
+        version: '^7.2'
+    redaxo: ^5.7
+    packages:
+        yrewrite: ^2.5
+
+
+page:
+    title: 'translate:yrewrite_url_redirect'
+    hidden: true;
+
+
+default_config:
+    force_trailing_slash: 1
+    force_forward: 1
