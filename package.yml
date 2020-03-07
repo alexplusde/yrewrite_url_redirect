@@ -1,15 +1,15 @@
 package: yrewrite_url_redirect
-version: '1.0.2'
+version: '1.1'
 author: 'Alexander Walther'
 supportpage: www.github.com/alexplusde/yrewrite_url_redirect
 load: late
 
 requires:
     php:
-        version: '^7.2'
-    redaxo: ^5.7
+        version: '^7.3'
+    redaxo: ^5.10
     packages:
-        yrewrite: ^2.5
+        yrewrite: ^2.6
     
 conflicts:
     packages:
