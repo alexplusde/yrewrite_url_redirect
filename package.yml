@@ -1,5 +1,5 @@
 package: yrewrite_url_redirect
-version: '1.0-dev1'
+version: '1.0'
 author: 'Alexander Walther'
 supportpage: www.github.com/alexplusde/yrewrite_url_redirect
 load: late
